@@ -7,17 +7,17 @@
 <style>
   body { font-family: 'Noto Sans JP', sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
   header { background: #4E7B35; padding: 15px 20px; position: sticky; top: 0; z-index: 100; }
-  header nav { display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: auto; }
+  header nav { display: flex; justify-content: space-between; align-items: center; max-width: 1100px; margin: auto; padding: 0 40px; }
   header nav ul { display: flex; list-style: none; margin: 0; padding: 0; }
   header nav li { margin: 0 10px; }
   header nav a { color: #fff; text-decoration: none; font-weight: bold; font-size: 15px; }
   .cta-btn { background: #6BB93F; color: #fff; padding: 10px 20px; border-radius: 25px; font-weight: bold; text-decoration: none; transition: background 0.3s; }
   .cta-btn:hover { background: #4E7B35; }
-  .hero { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; background: #F3F9F0; padding: 50px 20px; }
-  .hero-text { flex: 1 1 450px; }
+  .hero { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; background: #F3F9F0; padding: 50px 40px; }
+  .hero-text { flex: 1 1 50%; padding-right: 40px; }
   .hero-text h1 { font-size: 1.8em; color: #4E7B35; }
-  .hero img { max-width: 500px; flex: 1 1 300px; }
-  section { max-width: 1100px; margin: auto; padding: 40px 20px; }
+  .hero img { max-width: 250px; flex: 1 1 50%; }
+  section { max-width: 1100px; margin: auto; padding: 40px 40px; }
   h2 { color: #4E7B35; font-size: 1.6em; border-left: 5px solid #6BB93F; padding-left: 10px; }
   ul { padding-left: 20px; }
   .grid { display: grid; gap: 20px; }
@@ -30,37 +30,25 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
 <header>
-  <nav>
-    <div class="logo" style="color:white; font-weight:bold; font-size:18px;">独自ドメイン取得代行</div>
-    <ul>
-      <li><a href="#about">独自ドメインとは</a></li>
-      <li><a href="#merits">メリット</a></li>
-      <li><a href="#service">サービス内容</a></li>
-      <li><a href="#price">料金</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contact" class="cta-btn">無料相談</a></li>
-    </ul>
-  </nav>
+
 </header>
 
 <section class="hero">
   <div class="hero-text">
-    <h1>自社専用ドメインで信頼感とブランド力をアップ</h1>
+    <h1>独自ドメインで信頼感とブランド力をアップ</h1>
     <p>パソコンやネットが苦手でも大丈夫。面倒な手続きはすべて私たちが代行します。</p>
-    <a href="#contact" class="cta-btn">無料相談する</a>
+    <a href="#contact" class="cta-btn">お問い合わせ</a>
   </div>
-  <img src="https://via.placeholder.com/500x300" alt="企業サイトモックアップ">
+  <img src="domain.png" alt="ドメイン関連のイラスト">
 </section>
 
 <section id="about">
   <h2>独自ドメインとは？</h2>
-  <p>会社専用のインターネット住所のようなもので、ホームページやメールアドレスに使えます。</p>
-  <ul>
-    <li>あなただけのネット上の住所を持てる</li>
-    <li>会社名やお店の名前を覚えてもらいやすくなる</li>
-    <li>「.co.jp」は日本の会社だけが取得でき、信頼感が高い</li>
-  </ul>
+  <p>ドメインは、あなたの会社専用のインターネット住所のようなものです。インターネット上の「あなただけの場所」を作ることで、ホームページやメールアドレスに使えるようになります。<br>
+    「会社名.co.jp」や「会社名.com」のように、会社名が強調されたアドレスを作ることができます。一度取得すれば、会社が続く限り使い続けられる資産になります。</p>
+
 </section>
 
 <section id="merits">
@@ -104,20 +92,12 @@
   </ul>
 </section>
 
-<section id="price">
-  <h2>料金プラン</h2>
-  <div class="grid grid-3">
-    <div class="card"><strong>ライト</strong><br>初期5,500円／年3,300円</div>
-    <div class="card"><strong>スタンダード</strong><br>初期8,800円／年4,400円</div>
-    <div class="card"><strong>プレミアム</strong><br>初期13,200円／年6,600円</div>
-  </div>
-</section>
 
 <section id="faq" class="faq">
   <h2>よくある質問</h2>
   <details>
     <summary>どのドメインを選べばよいかわかりません</summary>
-    <p>業種や希望をお聞きして、いくつかの候補をご提案します。</p>
+    <p>業種や希望をお聞きして、いくつかの候補をご提案します。<br>日本の会社なら「.co.jp」がおすすめです。信頼感が高く、取引先にも安心感を与えます。</p>
   </details>
   <details>
     <summary>メール環境の切り替えは難しくないですか</summary>
@@ -130,13 +110,13 @@
 </section>
 
 <section id="contact">
-  <h2>お問い合わせ</h2>
-  <a href="#" class="cta-btn">まずは無料相談する</a>
-  <p>お電話でのお問い合わせ：03-1234-5678（平日 9:00〜18:00）</p>
+  <h2>お気軽にご相談ください</h2>
+  <a href="#" class="cta-btn">お問い合わせ</a>
 </section>
 
 <footer>
-  <p>&copy; 2025 独自ドメイン取得代行サービス</p>
+  <p>&copy; 株式会社ocomoji</p>
 </footer>
+
 </body>
 </html>
